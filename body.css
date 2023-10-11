@@ -1,0 +1,38 @@
+:root{
+    --width: 800px 
+}
+.start-content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: var(--width);
+    align-items: center;
+}
+
+.start-content p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.skills {
+    width: var(--width);
+}
+
+.projects {
+    width: var(--width);
+}
+
+.content{
+    margin-top: 90px;
+}
+
+.content > ul > li > dt {
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.content > ul > li:first-child > dt{
+    padding-top: 0px;
+}

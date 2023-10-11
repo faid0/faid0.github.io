@@ -1,0 +1,29 @@
+.body-dark {
+    background-color: #121212;
+}
+
+.header-dark {
+    background-color: #121212;
+        box-shadow: 0 -2px 20px rgba(0, 0, 0, 1);
+
+}
+
+.dropdown-dark:hover {
+    background-color: black;
+}
+
+.dropdown-content-dark {
+    background-color: #121212;
+}
+
+.dropdown-content-dark > a:hover {
+    background-color: black;
+}
+
+.dropdown:hover .dropdown-content-dark {
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 1);
+}
+
+.github-svg-dark{
+    fill: white;
+}

@@ -1,0 +1,67 @@
+:root {
+    --header-height: 100px;
+  }
+
+html {
+    font-family: Eina01, -apple-system, blinkmacsystemfont, Segoe UI, roboto, helvetica, arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    font-size: 1.3em;
+    font-weight: 500;
+    scroll-behavior: smooth;
+    transition: all 0.2s ease-out;
+}
+
+body {
+    /* background-color: #ebebeb; */
+    margin: 0;
+}
+main {
+    padding-top: calc( var(--header-height) + 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+}
+
+
+header {
+    overflow: visible;
+    position: fixed;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: var(--header-height);
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0px 1px 20px rgb(158, 158, 158);
+}
+
+nav {
+    display: flex;
+    height: 100%;
+    width: auto;
+    /* gap: 30px; */
+}
+
+a {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+
+.profile{
+    display: block;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(51, 48, 48);
+    border-radius: 50%;
+    /* margin: auto; */
+}
