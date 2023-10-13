@@ -1,16 +1,24 @@
 @media all and (max-width: 900px) {
-    html{
+    html {
         font-size: 1.2em;
     }
-    .start-content{
+
+    .start-content {
         width: 90%;
     }
-    .content{
+
+    .content {
         width: 90%;
     }
-    .content h1, p {
+
+    .content h1 {
         text-align: center;
     }
+
+    .content p {
+        text-align: center;
+    }
+
     .content ul {
         text-align: start;
     }
