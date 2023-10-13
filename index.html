@@ -2,8 +2,12 @@
 <html>
 
 <head>
+
+    <meta name="author" content="Faid Rihan" />
+    <meta name="description" content="A Simple Portfolio Website by Faid Rihan" />
+
     <meta charset='utf-8'>
-    <title>Page Title</title>
+    <title>Faid's Portfolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='header.css'>
@@ -18,22 +22,25 @@
 <body>
     <header>
         <nav style="overflow: visible;">
-            <a href="" class="Head-Title-Link">
-                <p class="Head-Title"><nobr>Faid's<span class="Head-Title-Small"> Portfolio</span></nobr></p>
+            <a href="" class="Head-Title-Link" title="Homepage">
+                <p class="Head-Title">
+                    <nobr>Faid's<span class="Head-Title-Small"> Portfolio</span></nobr>
+                </p>
             </a>
             <div class="dropdown">
-                <a href="" class="nav-link">
+                <div href="" class="nav-link" title="Categories">
                     <p class="nav-text">Categories <span class="triangle"></span></p>
-                </a>
+                </div>
                 <div class="dropdown-content">
-                    <a href="#skills-link">Skills</a>
-                    <a href="#projects-link">Projects</a>
+                    <a href="#start-link" title="Go to the Beginning">Homepage</a>
+                    <a href="#skills-link" title="Go to the Skills section">Skills</a>
+                    <a href="#projects-link" title="Go to the Projects section">Projects</a>
                 </div>
             </div>
             <div class="dropdown">
-                <a href="" class="nav-link">
+                <div href="" class="nav-link" tabindex="Minigames">
                     <p class="nav-text">Minigames <span class="triangle"></span></p>
-                </a>
+                </div>
                 <div class="dropdown-content">
                     <p>coming soon</p>
                 </div>
@@ -41,26 +48,36 @@
 
         </nav>
         <div class="right-header">
-            <img src="moon.png" alt="toggleDarkmode" class="header-icon darkmodeicon" id="darkmode">
-            <a href="https://github.com/faid0">
-                <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" class="header-icon">
-                    <path class="github-svg" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+            <img src="moon.png" alt="toggleDarkmode" class="header-icon darkmodeicon" id="darkmode" title="Switch DarkMode On or Off">
+            <a href="https://github.com/faid0" title="Go to my personal Gihub Profile">
+                <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true"
+                    class="header-icon">
+                    <path class="github-svg"
+                        d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                    </path>
                 </svg>
             </a>
-            <a href="https://www.instagram.com/faid0/" >
+            <a href="https://www.linkedin.com/in/faid-rihan-24b336254/" title="Go to my personal LinkedIn Profile">
+                <img src="linkedin.svg" alt="LinkedIn" class="header-icon">
+            </a>
+            <a href="https://www.xing.com/profile/Faid_Rihan/cv" title="Go to my personal Xing Profile">
+                <img src="xing.svg" alt="Xing" class="header-icon">
+            </a>
+            <a href="https://www.instagram.com/faid0/" title="Go to my personal Instagram Profile">
                 <img src="instagram.png" alt="Instagram" class="header-icon">
             </a>
         </div>
         <div class="right-menu-bar">
-            <img src="moon.png" alt="toggleDarkmode" class="header-icon darkmodeicon" id="darkmode">
-            <img src="menu-icon.svg" alt="menu" class="header-icon menu-icon">
+            <img src="moon.png" alt="toggleDarkmode" class="header-icon darkmodeicon" id="darkmode" title="Switch DarkMode On of Off">
+            <img src="menu-icon.svg" alt="menu" class="header-icon menu-icon" title="Open the Menu">
         </div>
         <div class="menu">
-            <img src="close-icon.svg" alt="close" class="close-icon">
+            <img src="close-icon.svg" alt="close" class="close-icon" title="Close the Menu">
             <div class="menu-titles">
                 <p>Categories</p>
-                <a class="menu-links" href="#skills-link">Skills</a>
-                <a class="menu-links" href="#projects-link">Porjects</a>
+                <a href="#start-link" title="Go to the Beginning">Homepage</a>
+                <a href="#skills-link" title="Go to the Skills section">Skills</a>
+                <a href="#projects-link" title="Go to the Projects section">Projects</a>
             </div>
             <div class="menu-titles margin-top-30">
                 <p>Minigames</p>
@@ -69,22 +86,34 @@
             <div class="menu-titles margin-top-30">
                 <p>Socials</p>
                 <div class="menu-titles links">
-                    <a href="https://github.com/faid0">
-                        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" class="header-icon">
-                            <path class="github-svg" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+                    <a href="https://github.com/faid0" title="Go to my personal Gihub Profile">
+                        <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true"
+                            class="header-icon">
+                            <path class="github-svg"
+                                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z">
+                            </path>
                         </svg>
                     </a>
-                    <a href="https://www.instagram.com/faid0/" >
+                    <a href="https://www.linkedin.com/in/faid-rihan-24b336254/" title="Go to my personal LinkedIn Profile">
+                        <img src="linkedin.svg" alt="LinkedIn" class="header-icon">
+                    </a>
+                    <a href="https://www.xing.com/profile/Faid_Rihan/cv" title="Go to my personal Xing Profile">
+                        <img src="xing.svg" alt="Xing" class="header-icon">
+                    </a>
+                    <a href="https://www.instagram.com/faid0/" title="Go to my personal Instagram Profile">
                         <img src="instagram.png" alt="Instagram" class="header-icon">
                     </a>
                 </div>
             </div>
         </div>
     </header>
+    <div id="start-link"></div>
     <main>
         <div class="start-content">
             <span class="profile"></span>
-            <p>I am Faid Rihan, a passionate 20-year-old Computer Science student at the Technical University of Munich (TUM). This website serves as my digital business card, where I showcase my projects, skills, and experiences in the realm of computer science.</p>
+            <p>I am Faid Rihan, a passionate 20-year-old Computer Science student at the Technical University of Munich
+                (TUM). This website serves as my digital business card, where I showcase my projects, skills, and
+                experiences in the realm of computer science.</p>
         </div>
         <div id="skills-link"></div>
         <div class="skills content">
