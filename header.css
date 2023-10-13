@@ -117,4 +117,5 @@
     margin: auto;
     margin-right: 15px;
     display: none;
+    flex-direction: row;
 }
