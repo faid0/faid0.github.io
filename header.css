@@ -9,7 +9,7 @@
 
 
 .Head-Title-Link {
-    transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-out;
     min-width: 275px;
 }
 
