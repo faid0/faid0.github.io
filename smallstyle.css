@@ -11,15 +11,15 @@
         width: 90%;
     }
 
-    .content h1 {
+    .content > h1 {
         text-align: center;
     }
 
-    .content p {
+    .content > p {
         text-align: center;
     }
 
-    .content ul {
+    .content > ul {
         text-align: start;
     }
 }
