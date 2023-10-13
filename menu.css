@@ -3,10 +3,10 @@
     /* display: none; */
     width: 100vw;
     height: 100vh;
-    background-color: #242424;
+    background-color: #121212;
     position: fixed;
     top: 0;
-    /* left: 100%; */
+    left: 100%;
 }
 
 .menu-titles {
@@ -17,13 +17,18 @@
     align-items: center;
 }
 
-.menu-titles > p:first-child {
+
+.menu-titles>p {
+    margin-bottom: 20px;
+}
+
+.menu-titles>p:first-child {
     text-align: center;
     font-size: 1.4em;
     text-decoration: underline;
 }
 
-.menu-titles > a {
+.menu-titles>a {
     font-size: 1.2em;
     height: 60px;
     position: relative;
@@ -45,4 +50,12 @@
 .menu-links:hover::before {
     transform: scaleX(1);
 }
-  
+
+.close-icon {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+}

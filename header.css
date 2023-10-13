@@ -114,6 +114,10 @@
 }
 
 .menu-icon {
+    cursor: pointer;
+}
+
+.right-menu-bar {
     margin: auto;
     margin-right: 15px;
     display: none;

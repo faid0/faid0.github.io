@@ -29,7 +29,7 @@
         display: none;
     }
 
-    .menu-icon{
+    .right-menu-bar{
         display: block;
     }
     .menu {
@@ -38,5 +38,6 @@
 }
 
 .show-menu {
+    display: block;
     left: 0;
 }
