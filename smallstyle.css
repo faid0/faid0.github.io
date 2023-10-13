@@ -22,4 +22,21 @@
     .content > ul {
         text-align: start;
     }
+    .dropdown {
+        display: none;
+    }
+    .right-header {
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+    .menu {
+        display: block;
+    }
+}
+
+.show-menu {
+    left: 0;
 }

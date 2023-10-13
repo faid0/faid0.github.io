@@ -109,6 +109,12 @@
     cursor: pointer;
 }
 
-.github-svg{
+.github-svg {
     fill: black;
+}
+
+.menu-icon {
+    margin: auto;
+    margin-right: 15px;
+    display: none;
 }

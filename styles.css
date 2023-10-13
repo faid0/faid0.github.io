@@ -64,3 +64,7 @@ a:hover {
     border-radius: 50%;
     /* margin: auto; */
 }
+
+.margin-top-30 {
+    margin-top: 30px;
+}

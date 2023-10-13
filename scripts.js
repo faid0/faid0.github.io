@@ -1,14 +1,16 @@
 let isdarkmode = false;
 const icons = []
 function setup() {
+    let menuicon = document.getElementsByClassName("menu-icon")[0]
+    let darkmodeicon = document.getElementById("darkmode")
     icons.push("moon.png")
     icons.push("sun.svg")
 
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)
         toggleDarkmode(0);
 
-    document.getElementById("darkmode").addEventListener("click", () => isdarkmode ? toggleDarkmode(1) : toggleDarkmode(0))
-    
+    darkmodeicon.addEventListener("click", () => isdarkmode ? toggleDarkmode(1) : toggleDarkmode(0))
+    menuicon.addEventListener("click", toggleMenu)
 }
 
 /**
@@ -51,4 +53,8 @@ function toggleDarkmode(option) {
     document.getElementById("darkmode").src = icon
 
     isdarkmode = !isdarkmode;
+}
+
+function toggleMenu(){
+    document.getElementsByClassName("menu")[0].classList.toggle("show-menu")
 }
