@@ -1,4 +1,7 @@
 @media all and (max-width: 900px) {
+    html{
+        font-size: 1.2em;
+    }
     .start-content{
         width: 90%;
     }
