@@ -70,27 +70,34 @@ function toggleDarkmode(option) {
 
     document.getElementsByTagName("body")[0].classList.toggle("body-dark");
     document.getElementsByTagName("header")[0].classList.toggle("header-dark");
-
+    
     [].forEach.call(document.querySelectorAll(".nav-link"), function (e) {
         e.classList.toggle("dropdown-dark")
     });
     [].forEach.call(document.querySelectorAll(".dropdown-content"), function (e) {
         e.classList.toggle("dropdown-content-dark")
     });
-
+    
     let darkmodeicons = document.getElementsByClassName("darkmodeicon")
     for (let index = 0; index < darkmodeicons.length; index++) {
         const element = darkmodeicons[index];
         element.src = icon
     }
 
+    let menuLinks = document.getElementsByClassName("menu-links")
+    for (let index = 0; index < menuLinks.length; index++) {
+        const element = menuLinks[index];
+        element.classList.toggle("menu-links-dark")
+    }
+
     document.getElementsByClassName("github-svg")[0].classList.toggle("github-svg-dark");
     document.getElementsByClassName("menu-icon")[0].src = menuButton
     document.getElementsByClassName("close-icon")[0].src = closeButton
+    document.getElementsByClassName("menu")[0].classList.toggle("menu-dark")
+
     isdarkmode = !isdarkmode;
 }
 
 function toggleMenu(){
-    console.log("hi")
     document.getElementsByClassName("menu")[0].classList.toggle("show-menu")
 }
