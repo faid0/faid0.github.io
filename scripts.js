@@ -90,7 +90,12 @@ function toggleDarkmode(option) {
         element.classList.toggle("menu-links-dark")
     }
 
-    document.getElementsByClassName("github-svg")[0].classList.toggle("github-svg-dark");
+    let githubIcon = document.getElementsByClassName("github-svg")
+    for (let index = 0; index < githubIcon.length; index++) {
+        const element = githubIcon[index];
+        element.classList.toggle("github-svg-dark")
+    }
+    
     document.getElementsByClassName("menu-icon")[0].src = menuButton
     document.getElementsByClassName("close-icon")[0].src = closeButton
     document.getElementsByClassName("menu")[0].classList.toggle("menu-dark")
