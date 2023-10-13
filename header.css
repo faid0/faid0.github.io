@@ -7,11 +7,6 @@
     line-height: 50px;
 }
 
-
-.Head-Title-Link {
-    min-width: 275px;
-}
-
 .Head-Title-Link:hover {
     transform: scale(1.1);
 }
