@@ -35,6 +35,9 @@
     .menu {
         display: block;
     }
+    .Head-Title {
+        font-size: 1.5em;
+    }
 }
 
 .show-menu {
