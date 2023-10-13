@@ -118,6 +118,7 @@
 }
 
 .right-menu-bar {
+    display: flex;
     margin: auto;
     margin-right: 15px;
     display: none;
