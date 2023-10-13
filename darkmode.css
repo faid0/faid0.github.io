@@ -1,23 +1,23 @@
 .body-dark {
-    background-color: #121212 !important;
+    background-color: #1b1b1b !important;
 }
 
 .header-dark {
-    background-color: #121212 !important;
+    background-color: #1b1b1b !important;
         box-shadow: 0 -2px 20px rgba(0, 0, 0, 1) !important;
 
 }
 
 .dropdown-dark:hover {
-    background-color: black !important;
+    background-color: rgb(12, 12, 12) !important;
 }
 
 .dropdown-content-dark {
-    background-color: #121212 !important;
+    background-color: #1b1b1b !important;
 }
 
 .dropdown-content-dark > a:hover {
-    background-color: black !important;
+    background-color: rgb(12, 12, 12) !important;
 }
 
 .dropdown:hover .dropdown-content-dark {
