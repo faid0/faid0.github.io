@@ -8,6 +8,8 @@ html {
     font-weight: 500;
     scroll-behavior: smooth;
     transition: all 0.2s ease-out;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 body {

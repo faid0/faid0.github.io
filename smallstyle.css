@@ -1,0 +1,8 @@
+@media all and (max-width: 900px) {
+    .start-content{
+        width: 90%;
+    }
+    .content{
+        width: 90%;
+    }
+}
