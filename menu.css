@@ -1,6 +1,6 @@
 .menu {
     transition: all 0.5s ease-in-out;
-    overflow: hidden;
+    overflow: scroll;
     display: none;
     width: 100vw;
     height: 100vh;
@@ -9,6 +9,14 @@
     border-radius: 100px 0px 0px 100px;
     top: 0;
     left: 100%;
+
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.menu::-webkit-scrollbar {
+    display: none;
 }
 
 .menu-titles {
