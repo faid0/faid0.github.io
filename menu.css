@@ -34,7 +34,7 @@
     position: relative;
     text-decoration: none;
 }
-
+/* 
 .menu-links::before {
     content: "";
     position: absolute;
@@ -45,11 +45,17 @@
     background-color: black;
     transform: scaleX(0);
     transition: transform 0.3s ease;
+} */
+
+/* .menu-links:hover::before {
+    transform: scaleX(1);
+} */
+
+.menu-links:hover {
+    color: #727272;
+    letter-spacing: 3px;
 }
 
-.menu-links:hover::before {
-    transform: scaleX(1);
-}
 
 .close-icon {
     height: 50px;
