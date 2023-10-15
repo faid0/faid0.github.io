@@ -3,7 +3,8 @@
   }
 
 html {
-    font-family: Eina01, -apple-system, blinkmacsystemfont, Segoe UI, roboto, helvetica, arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    /* font-family: Eina01, -apple-system, blinkmacsystemfont, Segoe UI, roboto, helvetica, arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; */
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 1.3em;
     font-weight: 500;
     scroll-behavior: smooth;
